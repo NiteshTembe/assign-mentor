@@ -1,0 +1,9 @@
+[
+    {
+        "student_id": "001",
+        "first_name":"Rakesh",
+        "last_name":"Sharma",
+        "mentor_id" : null,
+        "previous_mentors_id": []
+    }
+]
