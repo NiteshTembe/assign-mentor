@@ -27,7 +27,7 @@ app.use(express.json());
 
 //REST API Endpoints
 app.get("/", (req, res) => {
-  res.send("Welcome to Mentor-Assign API");
+  res.send("Welcome to Mentor-Assign API <br/> Please Read <a href='https://documenter.getpostman.com/view/26861485/2s93Xzw296'>https://documenter.getpostman.com/view/26861485/2s93Xzw296</a> documentation");
 });
 
 app.use("/mentors", mentorsRouter);
